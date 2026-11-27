@@ -1,0 +1,210 @@
+{
+  "instructor": "Instructor - Sufyan bin Uzayr",
+  "student_name": "Alina Amangeldiyeva",
+  "student_id": 230103224,
+  "omp_layer": "omp",
+  "cpu_cores": 11,
+  "numba_version": "0.68.1",
+  "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+  "verification_digest": "1864649B439D9623F718",
+  "task1": {
+    "buggy_lost_counts_10_runs": [
+      3687131,
+      3631060,
+      3647154,
+      3574094,
+      3669500,
+      3648918,
+      3646324,
+      3595917,
+      3672917,
+      3690375
+    ],
+    "buggy_max_bin_discrepancy": 61098,
+    "safe_histogram_total": 4974848,
+    "thread_results": {
+      "1": {
+        "worker_hits": [
+          4974848
+        ],
+        "histogram_total": 4974848,
+        "weighted_sum_total": 6842418.734794387
+      },
+      "2": {
+        "worker_hits": [
+          2487424,
+          2487424
+        ],
+        "histogram_total": 4974848,
+        "weighted_sum_total": 6842418.734794387
+      },
+      "4": {
+        "worker_hits": [
+          1243712,
+          1243712,
+          1243712,
+          1243712
+        ],
+        "histogram_total": 4974848,
+        "weighted_sum_total": 6842418.734794387
+      },
+      "8": {
+        "worker_hits": [
+          621856,
+          621856,
+          621856,
+          621856,
+          621856,
+          621856,
+          621856,
+          621856
+        ],
+        "histogram_total": 4974848,
+        "weighted_sum_total": 6842418.734794387
+      }
+    }
+  },
+  "task2": {
+    "1": {
+      "unpadded_seconds": 0.03135945800750051,
+      "padded_seconds": 0.030878374993335456,
+      "speedup_padded_vs_unpadded": 1.015579933020079,
+      "states_equal": true,
+      "state_xor": 62157254883724
+    },
+    "2": {
+      "unpadded_seconds": 0.0316609590081498,
+      "padded_seconds": 0.03161775000626221,
+      "speedup_padded_vs_unpadded": 1.0013666058425736,
+      "states_equal": true,
+      "state_xor": 56483060569488
+    },
+    "4": {
+      "unpadded_seconds": 0.03454399999463931,
+      "padded_seconds": 0.03451779199531302,
+      "speedup_padded_vs_unpadded": 1.0007592605960962,
+      "states_equal": true,
+      "state_xor": 16412997502789
+    },
+    "8": {
+      "unpadded_seconds": 0.0399547499982873,
+      "padded_seconds": 0.041095667009358294,
+      "speedup_padded_vs_unpadded": 0.972237535144248,
+      "states_equal": true,
+      "state_xor": 57218536838832
+    }
+  },
+  "task3": {
+    "static_seconds_8_threads": 0.006962290994124487,
+    "static_operations_per_worker": [
+      781373,
+      792640,
+      781013,
+      793001,
+      780689,
+      792029,
+      781696,
+      791093
+    ],
+    "static_load_imbalance_ratio": 1.015770684613207,
+    "balanced": {
+      "1": {
+        "seconds": 0.03002937500423286,
+        "operations_per_worker": [
+          6293534
+        ],
+        "load_imbalance_ratio": 1.0,
+        "worker_hits": [
+          13168
+        ]
+      },
+      "2": {
+        "seconds": 0.025042333989404142,
+        "operations_per_worker": [
+          5337043,
+          956491
+        ],
+        "load_imbalance_ratio": 5.579815178605967,
+        "worker_hits": [
+          6584,
+          6584
+        ]
+      },
+      "4": {
+        "seconds": 0.01624462500330992,
+        "operations_per_worker": [
+          3497025,
+          1840018,
+          744898,
+          211593
+        ],
+        "load_imbalance_ratio": 16.52712991450568,
+        "worker_hits": [
+          3292,
+          3292,
+          3292,
+          3292
+        ]
+      },
+      "8": {
+        "seconds": 0.009647250000853091,
+        "operations_per_worker": [
+          1989391,
+          1507634,
+          1093014,
+          747004,
+          474844,
+          270054,
+          137186,
+          74407
+        ],
+        "load_imbalance_ratio": 26.73661080274705,
+        "worker_hits": [
+          1646,
+          1646,
+          1646,
+          1646,
+          1646,
+          1646,
+          1646,
+          1646
+        ]
+      }
+    }
+  },
+  "task4": {
+    "1": {
+      "seconds": 0.19902170900604688,
+      "speedup_vs_1_thread": 1.0,
+      "final_max_delta": 0.04837822099956668,
+      "grid_sum": 3653080.889631686,
+      "max_abs_diff_vs_1_thread": 0.0
+    },
+    "2": {
+      "seconds": 0.12301529200340156,
+      "speedup_vs_1_thread": 1.6178615338371398,
+      "final_max_delta": 0.04837822099956668,
+      "grid_sum": 3653080.889631686,
+      "max_abs_diff_vs_1_thread": 0.0
+    },
+    "4": {
+      "seconds": 0.0949736250040587,
+      "speedup_vs_1_thread": 2.0955471479322987,
+      "final_max_delta": 0.04837822099956668,
+      "grid_sum": 3653080.889631686,
+      "max_abs_diff_vs_1_thread": 0.0
+    },
+    "8": {
+      "seconds": 0.1310198749997653,
+      "speedup_vs_1_thread": 1.5190192251855177,
+      "final_max_delta": 0.04837822099956668,
+      "grid_sum": 3653080.889631686,
+      "max_abs_diff_vs_1_thread": 0.0
+    }
+  },
+  "diagnoses": {
+    "DIAGNOSIS_T1": "The unsafe kernel performs a read-modify-write sequence on shared histogram elements, so two workers can read the same old value and overwrite one another's increments. Thread-private rows remove this data race because each worker updates only its own row, and the rows are merged after the parallel region. Integer addition is exact within the chosen range, but floating-point addition is not associative: changing the order of additions can change the final low bits. Even atomic floating-point updates would prevent lost updates without guaranteeing a deterministic addition order. The reference implementation therefore uses a fixed input-order pass for the weighted sums.",
+    "DIAGNOSIS_T2": "False sharing occurs when independent variables written by different cores occupy the same cache line. The cores do not share the logical variable, but cache coherence operates at cache-line granularity, so repeated writes cause ownership transfers and invalidations. In the unpadded layout, adjacent int64 worker states can reside in one 64-byte line. Padding each worker's active slot by at least eight int64 elements separates those slots onto distinct cache lines. The expected benefit is reduced coherence traffic, although actual speedup depends on the CPU, runtime, and memory layout and must be measured rather than assumed.",
+    "DIAGNOSIS_T3": "The static prange kernel processes the original row order, so a worker can receive a contiguous region whose rows have uneven iterative costs. The balanced kernel constructs a deterministic bijective stride-interleaved permutation of row indices, spreading neighboring cost patterns across the logical iteration space before OpenMP distributes the loop. Each worker records its own operation count and row count, allowing the max-operations/min-operations ratio to be measured. The output is written back using the original row index, so it can be compared directly with the static result. This implementation uses deterministic interleaving with OpenMP prange worksharing rather than claiming a portable user-level atomic fetch-add queue."
+  }
+}
